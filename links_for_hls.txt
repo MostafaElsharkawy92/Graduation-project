@@ -12,3 +12,4 @@ https://www.hlsbook.com/
 
 https://xilinx.github.io/Vitis_Librariehttps://xilinx.github.io/Vitis_Libraries/vision/2019.2/overview.html#basic-featuress/vision/2019.2/overview.html#basic-features
 
+https://beetlebox.org/getting-started-with-computer-vision-for-vitis-embedded-systems-part-4-vitis-vision-library/
