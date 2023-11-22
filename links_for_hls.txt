@@ -14,3 +14,5 @@ https://xilinx.github.io/Vitis_Librariehttps://xilinx.github.io/Vitis_Libraries/
 
 https://beetlebox.org/getting-started-with-computer-vision-for-vitis-embedded-systems-part-4-vitis-vision-library/
 https://beetlebox.org/getting-started-with-computer-vision-for-vitis-embedded-systems/
+https://www.youtube.com/watch?v=0NqYgbSpoRE
+https://support.xilinx.com/s/question/0D52E00006iHjwMSAS/zynq-booting-from-sd-card?language=en_US
