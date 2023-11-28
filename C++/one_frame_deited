@@ -1,8 +1,20 @@
-#include <opencv2/opencv.hpp> // opencv
-#include <iostream> // cout and cin
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgcodecs/imgcodecs.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/features2d/features2d.hpp>
+#include <opencv2/xfeatures2d.hpp>
+#include <opencv2/videoio/videoio.hpp>
+
+#include <iostream>
+#include <stdio.h>
 #include <math.h> // power, tan
 #include <stdlib.h>  // absolute value
 #include <algorithm> // for sort
+
+using namespace std;
+using namespace cv;
+
 
 using namespace std;
 
@@ -50,9 +62,10 @@ int main(int argc, char** argv) {
 
 	//---------------GET IMAGE---------------------
 	 // Read the image file
-	 // TODO: Change to an argument, enter path to image
+
 	 //cv::Mat image = cv::imread("C:/Users/anwrk/source/repos/lane_detection_test2/lane_detection_test2/1.jpg"); // read the image into mat type variable, image, if funning from cmd line, path is ../src/1.jpg
-	cv::Mat image = cv::imread("test_pic.jpg");
+	cv::Mat image;
+	image = cv::imread("r_test_image.jpeg");
 	 // Check for failure in reading the image
 	 if (!image.data) // check if it's empty
 	 {
@@ -113,8 +126,8 @@ int main(int argc, char** argv) {
 	 cv::String edgeWindowName = "edge detection image";
 
 	 // Show edge detection image
-	 cv::imshow(edgeWindowName, edgesIm);
-	 cv::waitKey(0); // wait for a key press
+	 //cv::imshow(edgeWindowName, edgesIm);
+	 //cv::waitKey(0); // wait for a key press
 
 	 //--------------------CREATE MASK---------------------------
 	 // Create mask to only keep area defined by four corners
@@ -196,8 +209,8 @@ int main(int argc, char** argv) {
 		 }
 
 		 // Display images
-		 cv::imshow("Hough Lines", allLinesIm);
-		 cv::waitKey(0);
+		// cv::imshow("Hough Lines", allLinesIm);
+		 //cv::waitKey(0);
 
 
 		 //---------------Separate Lines Into Positive/Negative Slope--------------------
@@ -665,8 +678,8 @@ int main(int argc, char** argv) {
 																						cv::Scalar(0,255,0), 3, 8 );
 
 	// Plot positive and negative lane lines
-	 cv::imshow("Lane lines on image", laneLineImage);
-	 cv::waitKey(0); // wait for a key press
+	 //cv::imshow("Lane lines on image", laneLineImage);
+	 //cv::waitKey(0); // wait for a key press
 
 
 	 // -----------------BLEND IMAGE-----------------------
@@ -701,7 +714,7 @@ int main(int argc, char** argv) {
 	 // Show final frame
 	 //cv::imshow("Final Output", blendedIm);
 	 //cv::waitKey(0);
-	 imwrite("lane_out.jpg", blendedIm);
+	 cv::imwrite("lane_out.jpeg", blendedIm);
      cout << "Created out_put image" << endl;
 
 
