@@ -16,3 +16,5 @@ https://beetlebox.org/getting-started-with-computer-vision-for-vitis-embedded-sy
 https://beetlebox.org/getting-started-with-computer-vision-for-vitis-embedded-systems/
 https://www.youtube.com/watch?v=0NqYgbSpoRE
 https://support.xilinx.com/s/question/0D52E00006iHjwMSAS/zynq-booting-from-sd-card?language=en_US
+
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842439/Boot+Pre-Built+Xilinx+ZC-702+image
