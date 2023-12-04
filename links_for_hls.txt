@@ -18,3 +18,4 @@ https://www.youtube.com/watch?v=0NqYgbSpoRE
 https://support.xilinx.com/s/question/0D52E00006iHjwMSAS/zynq-booting-from-sd-card?language=en_US
 
 https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842439/Boot+Pre-Built+Xilinx+ZC-702+image
+https://support.xilinx.com/s/question/0D52E00006hpklfSAA/ultra96-simple-video-opencv-error?language=en_US
