@@ -19,3 +19,5 @@ https://support.xilinx.com/s/question/0D52E00006iHjwMSAS/zynq-booting-from-sd-ca
 
 https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842439/Boot+Pre-Built+Xilinx+ZC-702+image
 https://support.xilinx.com/s/question/0D52E00006hpklfSAA/ultra96-simple-video-opencv-error?language=en_US
+
+https://support.xilinx.com/s/article/76960?language=en_US
