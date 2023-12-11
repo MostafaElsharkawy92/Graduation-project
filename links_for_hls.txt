@@ -21,3 +21,4 @@ https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842439/Boot+Pre-Built+Xi
 https://support.xilinx.com/s/question/0D52E00006hpklfSAA/ultra96-simple-video-opencv-error?language=en_US
 
 https://support.xilinx.com/s/article/76960?language=en_US
+https://community.element14.com/technologies/fpga-group/b/blog/posts/fpga-camera-lane-detection-with-zynq-zc702
