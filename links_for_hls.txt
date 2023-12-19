@@ -29,3 +29,5 @@ https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842231/Zynq-7000+AP+SoC+
 
 https://beetlebox.org/getting-started-with-computer-vision-for-vitis-embedded-systems-part-4-vitis-vision-library/
 https://support.xilinx.com/s/question/0D52E00006hpL5XSAU/cannot-execute-vitis-vision-library-samples?language=en_US
+
+https://medium.com/edgecortix/floating-point-reduction-benchmark-with-xilinx-vitis-flow-f82bb993432
